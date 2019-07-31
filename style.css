@@ -4,8 +4,21 @@ html {
 }
 
 body {
-    width: fit-content;
-    max-width: 21cm;
+    width: 21cm;
     margin: auto;
     padding: 1rem;
+}
+
+em {
+    color: #ed1c24;
+}
+
+@media print {
+    html {
+        font-size: 23px;
+    }
+
+    body {
+        width: 80%;
+    }
 }
