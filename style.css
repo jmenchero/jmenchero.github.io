@@ -6,7 +6,7 @@ html {
 body {
     max-width: 21cm;
     margin: auto;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 em {
@@ -19,6 +19,6 @@ em {
     }
 
     body {
-        width: 80%;
+        max-width: 80%;
     }
 }
