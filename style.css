@@ -21,8 +21,4 @@ em {
     body {
         max-width: 80%;
     }
-
-    section:nth-of-type(2) {
-        page-break-before: always;
-    }
 }
