@@ -21,4 +21,8 @@ em {
     body {
         max-width: 80%;
     }
+
+    section:nth-child(2) {
+        page-break-after: always;
+    }
 }
